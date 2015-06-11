@@ -1,1 +1,36 @@
-mazuha
+body{
+
+}
+
+.container{
+	margin:10% 10% 10% 10%;
+}
+
+#tablemain{
+	border:solid 2px black;
+	overflow: hidden;
+}
+
+#tablemain .box{
+	border-bottom: solid 2px black;
+	overflow: hidden;
+	clear:both;
+}
+#tablemain .lastbox{
+	overflow: hidden;
+	clear:both;
+}
+#tablemain .row1{
+	width:29%;
+	float:left;
+	border-right:solid 2px black;
+	text-indent: 0.5em;
+}
+
+#tablemain .row2{
+	width:70%;
+	float:left;
+	text-indent: 0.5em;
+}
+
+
